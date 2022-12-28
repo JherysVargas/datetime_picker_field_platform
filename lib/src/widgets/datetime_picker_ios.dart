@@ -14,7 +14,6 @@ class DateTimePickerIOS extends StatelessWidget {
     required this.onDateTimeChanged,
     this.onCancel,
     this.onConfirm,
-    this.minimumYear,
     this.minimumDate,
     this.maximumDate,
     this.titleStyle,
@@ -23,7 +22,6 @@ class DateTimePickerIOS extends StatelessWidget {
   }) : super(key: key);
 
   final DateMode mode;
-  final int? minimumYear;
   final String title;
   final String textCancel;
   final String textConfirm;
@@ -91,7 +89,6 @@ class DateTimePickerIOS extends StatelessWidget {
                   : CupertinoDatePickerMode.date,
               onDateTimeChanged: onDateTimeChanged,
               initialDateTime: initialDateTime,
-              minimumYear: minimumYear ?? initialDateTime.year,
               minimumDate: minimumDate,
               maximumDate: maximumDate,
             ),
