@@ -18,6 +18,7 @@ dependencies:
 
 <p>
   <img width="250px" alt="Example" src="https://github.com/JherysVargas/datetime_picker_field_platform/blob/main/screenshots/example_ios.gif?raw=true"/>
+  <img width="250px" alt="Example" src="https://github.com/JherysVargas/datetime_picker_field_platform/blob/main/screenshots/example_android.gif?raw=true"/>
 </p>
 
 <br>
